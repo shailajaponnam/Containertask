@@ -1,0 +1,53 @@
+.container{
+    height: 600px;
+    
+    
+}
+.child-1{
+    height:300px;
+    
+    
+}
+.child-2{
+    height:300px;
+    
+    
+}
+.subchild-1{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    position:relative;
+    
+}
+.subchild-2{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    position:relative;
+    
+}
+.subchild-3{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    position:relative;
+   
+}.subchild-4{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    position:relative;
+    
+}
+img{
+    width:100%;
+}
+h3{
+    background-color: black;
+    color:white;
+    padding:10px;
+    position:absolute;
+    top:0px;
+    margin:0px;
+}
