@@ -1,10 +1,65 @@
-.header{
-    width:500px;
-    height:600px;
-    border:5px solid;
-    border-radius:50px;
-    margin-left:400px;
+.main-container {
+    width: 400px;
+    height: 500px;
+    border: 5px solid;
+    position: relative;
 }
-i{
-    font-size:40px;
+div {
+    display: block;
+}
+.container-1 {
+    height: 50px;
+    background-color: lightgreen;
+    align-items: center;
+}
+.container-1 i {
+    font-size: 24px;
+}
+i {
+    font-style: italic;
+}
+.bi-arrow-left::before {
+    content: "\f12f";
+}
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+}
+div {
+    display: block;
+}
+.container-1 i.spaced {
+    margin-right: 20px;
+}
+.container-1 i {
+    font-size: 24px;
+}
+i {
+    font-style: italic;
+}
+.bi-camera-video::before {
+    content: "\f21f";
+}
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
