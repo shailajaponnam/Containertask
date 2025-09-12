@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.container{
+    width:30%;
+    height:40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    display: flex;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    transition: all 2s ease;
+    animation-name: c;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+}
+.child2{
+    display: flex;
+    background-color: blue;
+    border-radius: 50%;
+     margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    transition: all 2s ease;
+    animation-name: c;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+}
+.child3{
+    display: flex;
+    background-color: orange;
+    border-radius: 50%;
+     margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    transition: all 2s ease;
+    animation-name: c;
+    animation-duration: 2s;
+    animation-delay: 0.6s;
+}
+.child4{
+    display: flex;
+    background-color: green;
+    border-radius: 50%;
+     margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    transition: all 2s ease;
+    animation-name: c;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+}
+.child{
+    animation-iteration-count: infinite;
+}
+@keyframes c {
+    0%{
+        transform: translateY(0px);
+
+    }
+    50%{
+          transform: translateY(-20px);
+       
+    }
+    100%{
+          transform: translateY(0px);
+
+    }
+    
+}
